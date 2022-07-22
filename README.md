@@ -7,3 +7,6 @@
 
 *Dapp Examples*
 - [Cosmos using cosmjs](http://cosmjs-example.dev.cosmostation.io/)
+
+*Docs*
+- [Cosmostation Wallet Docs](https://docs.cosmostation.io/)

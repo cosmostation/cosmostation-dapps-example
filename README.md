@@ -6,6 +6,7 @@
 - [Cosmostation Extension](https://chrome.google.com/webstore/detail/cosmostation/fpkhgmpbidmiogeglndfbkegfdlnajnf)
 
 *Dapp Examples*
+- [Cosmos](http://cosmos-example.dev.cosmostation.io/)
 - [Cosmos using cosmjs](http://cosmjs-example.dev.cosmostation.io/)
 
 *Docs*

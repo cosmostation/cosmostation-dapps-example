@@ -14,7 +14,7 @@ import {
 } from "@walletconnect/types";
 
 const CHAIN_ID = "cosmoshub-4";
-const LCD_ENDPOINT = "https://lcd-cosmoshub.blockapsis.com";
+const LCD_ENDPOINT = "https://api-cosmoshub-ia.cosmosia.notional.ventures";
 const DENOM = "uatom";
 
 export const decodeBase64 = (str: string): string =>

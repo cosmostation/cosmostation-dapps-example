@@ -33,7 +33,7 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "deploy": "npm run build && aws s3 sync --cache-control max-age=0,public ./build/ s3://cosmos-example.dev.cosmostation.io"
+    "deploy": "npm run build && aws s3 sync --cache-control max-age=0,public ./build/ s3://cosmos-wcv2-example.dev.cosmostation.io"
   },
   "eslintConfig": {
     "extends": [

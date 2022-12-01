@@ -47,14 +47,6 @@ function App() {
         },
       });
 
-      _client.on("session_update", ({ topic, params }) => {
-        console.log("EVENT", "session_update", { topic, params });
-        const { namespaces } = params;
-        const _session = _client.session.get(topic);
-        const updatedSession = { ..._session, namespaces };
-        onSessionConnected(updatedSession);
-      });
-
       setClient(_client);
     } catch (err) {
       throw err;
@@ -92,13 +84,10 @@ function App() {
       const session = await approval();
       console.log("Established session:", session);
       await onSessionConnected(session);
-      // Update known pairings after session is connected.
       setPairings(client.pairing.getAll({ active: true }));
     } catch (e) {
       console.error(e);
-      // ignore rejection
     } finally {
-      // close modal in case it was open
       modal.close();
     }
   }
